@@ -7,6 +7,7 @@ C:\Users\yuajs\Desktop\Desafio-Academia\obj\Debug\net10.0\Desafio-Academia.Gener
 C:\Users\yuajs\Desktop\Desafio-Academia\obj\Debug\net10.0\Desafio-Academia.AssemblyInfoInputs.cache
 C:\Users\yuajs\Desktop\Desafio-Academia\obj\Debug\net10.0\Desafio-Academia.AssemblyInfo.cs
 C:\Users\yuajs\Desktop\Desafio-Academia\obj\Debug\net10.0\Desafio-Academia.csproj.CoreCompileInputs.cache
+C:\Users\yuajs\Desktop\Desafio-Academia\obj\Debug\net10.0\Desafio-Academia.sourcelink.json
 C:\Users\yuajs\Desktop\Desafio-Academia\obj\Debug\net10.0\Desafio-Academia.dll
 C:\Users\yuajs\Desktop\Desafio-Academia\obj\Debug\net10.0\refint\Desafio-Academia.dll
 C:\Users\yuajs\Desktop\Desafio-Academia\obj\Debug\net10.0\Desafio-Academia.pdb

@@ -3,6 +3,18 @@
 
     static void Main(string[] args)
     {
-        Robo.RodandoRobo();
+        do
+        {
+            Robo.RodandoRobo();
+
+
+            Console.WriteLine("Deseja continuar(s/N): ");
+            string usuario = Console.ReadLine() ?? "";
+            if (usuario.ToUpper() != "S")
+                break;
+
+        } while (true);
+
+
     }
 }

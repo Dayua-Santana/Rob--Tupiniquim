@@ -8,21 +8,17 @@ class Robo
     public static char direcao;
     public static void RodandoRobo()
     {
-        Console.WriteLine("-- Configuração Inicial ---");
-        Console.WriteLine("Digite a posição X: ");
-        int.TryParse(Console.ReadLine(), out x);
-
-        Console.WriteLine("Digite a posição Y: ");
-        int.TryParse(Console.ReadLine(), out y);
-
-        Console.WriteLine("Digite a Direção ( N, S ,L ,O ): ");
-        char.TryParse(Console.ReadLine(), out direcao);
-
-        direcao = char.ToUpper(direcao);
-
-        Console.Write("Digite a sequência de comandos: ");
+        Console.Write("Digite a posição inicial (X Y Orientação): ");
+        string inputPosicao = Console.ReadLine() ?? "";
+        string[] partes = inputPosicao.Split(' ');
+        if (partes.Length == 3)
+        {
+            int.TryParse(partes[0], out x);
+            int.TryParse(partes[1], out y);
+            char.TryParse(partes[2].ToUpper(), out direcao);
+        }
+        Console.WriteLine("Digite a sequência de comandos: ");
         string comandos = Console.ReadLine() ?? "";
-
         foreach (char comando in comandos.ToUpper())
         {
             switch (char.ToUpper(comando))
