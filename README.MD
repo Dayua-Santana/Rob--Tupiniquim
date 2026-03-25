@@ -1,6 +1,9 @@
 # 🤖 Robô Tupiniquim I - Desafio Academia-Progamador
 
+
 Este projeto consiste no desenvolvimento do software de navegação para o **Robô Tupiniquim I**, um explorador espacial enviado pela Agência Espacial Brasileira (AEB) para mapear o terreno de Marte. O robô opera em um sistema de coordenadas cartesianas dentro de um grid pré-definido.
+
+![alt text](Desafio-Academia_1GU0mzguZJ.gif)
 
 ## 🚀 Funcionalidades
 
